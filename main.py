@@ -1,20 +1,13 @@
-# Video 14 - [Interactive Coding Exercise] Variables
+# Video 16 - Day 1 Project: Band Name Generator
 
-# 🚨 Don't change the code below 👇
-a = input("a: ")
-b = input("b: ")
-# 🚨 Don't change the code above 👆
+#1. Create a greeting for your program.
+print("Welcome to the Band Name Generator.")
 
-####################################
-#Write your code below this line 👇
+#2. Ask the user for the city that they grew up in.
+city = input("What's the name of the city you grew up in?\n")
 
-temp = a
-a = b
-b = temp
+#3. Ask the user for the name of a pet.
+pet = input("What is the name of a pet?\n")
 
-#Write your code above this line 👆
-####################################
-
-# 🚨 Don't change the code below 👇
-print("a: " + a)
-print("b: " + b)
+#4. Combine the name of their city and pet and show the their band name.
+print("Your band name could be " + city + " " +  pet)
