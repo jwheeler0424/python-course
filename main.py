@@ -1,3 +1,2 @@
-# Video 12 - [Interactive Coding Exercise] Input Function
+# Video 14 - [Interactive Coding Exercise] Variables
 
-print(len(input("What is your name? ")))
