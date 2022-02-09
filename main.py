@@ -1,9 +1,18 @@
-# Video 21 - Day 2 Interactive Coding Exercise - Data Types
+# Day 2 video 22
 
-# 🚨 Don't change the code below 👇
-two_digit_number = input("Type a two digit number: ")
-# 🚨 Don't change the code above 👆
+3 + 5   # add
+7 - 4   # subtract
+3 * 2   # multiply
+6 / 3   # divide
 
-####################################
-#Write your code below this line 👇
-print(int(two_digit_number[0]) + int(two_digit_number[1]))
+2 ** 8  # exponential powers
+
+print (2 ** 8)
+
+# PEDMAS L->R
+# ()
+# **
+# * /
+# + -
+
+print(3 * 3 + 3 / 3 - 3)
