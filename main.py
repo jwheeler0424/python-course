@@ -1,18 +1,9 @@
-# Day 2 video 26 Project - Tip Calculator
+# Day 3 - Video 29
 
-# If the bill was $150.00, split between 5 people, with 12% tip.
-# Each person should pay (150.00 / 5) * 1.12
-# Round the result to 2 decimal places
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
 
-print("Welcome to the tip calculator.")
-bill = float(input("What was the total bill? $"))
-tip_percent = int(input("What percentage tip would you like to give? 10, 12,or 15? ")) / 100
-people = int(input("How many people to split the bill? "))
-
-tip = bill * tip_percent
-
-total_bill = bill + tip
-person_bill = round(total_bill / people, 2)
-person_bill = "{:.2f}".format(person_bill)
-
-print(f"Each person should pay: ${person_bill}")
+if height >= 120:
+    print("You can ride the rollercoaster")
+else:
+    print("Sorry, you have to grow taller before you can ride.")
